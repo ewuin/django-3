@@ -20,4 +20,5 @@ from django.contrib import admin
 urlpatterns = [
     url(r'^',include('apps.test_app.urls')),
     url(r'^admin/', admin.site.urls),
+    
 ]
